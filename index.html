@@ -1,0 +1,305 @@
+<!DOCTYPE html>
+<html lang="hi">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<title>Free Diamonds — Telegram par message karo</title>
+<meta name="description" content="Free diamonds aur roz naye redeem codes. Telegram par message karo.">
+<meta property="og:title" content="Free Diamonds — Telegram par message karo">
+<meta property="og:description" content="Free diamonds aur roz naye redeem codes. Telegram par message karo.">
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Chakra+Petch:wght@400;600;700&family=Share+Tech+Mono&display=swap" rel="stylesheet">
+<style>
+  :root{
+    --base:#1B1614;
+    --panel:#271F1B;
+    --panel-hi:#332821;
+    --line:#4A3A30;
+    --text:#F2E8DE;
+    --muted:#A2907F;
+    --orange:#FF7A18;
+    --ember:#FFC531;
+    --gem:#41D5F5;
+    --gem-deep:#1B8FB5;
+    --sans:'Chakra Petch', system-ui, -apple-system, sans-serif;
+    --mono:'Share Tech Mono', ui-monospace, monospace;
+    --cut:polygon(0 15px,15px 0,100% 0,100% calc(100% - 15px),calc(100% - 15px) 100%,0 100%);
+  }
+
+  *{box-sizing:border-box;margin:0;padding:0}
+  html{-webkit-text-size-adjust:100%}
+
+  body{
+    font-family:var(--sans);
+    background:var(--base);
+    background-image:radial-gradient(120% 55% at 50% 0%, rgba(255,122,24,.16), transparent 62%);
+    background-repeat:no-repeat;
+    color:var(--text);
+    line-height:1.5;
+    padding:0 18px 56px;
+    overflow-x:hidden;
+  }
+  .wrap{max-width:520px;margin:0 auto}
+
+  /* ---------- hero ---------- */
+  .hero{padding:50px 0 4px;text-align:center}
+  .mark{
+    display:inline-block;
+    font-family:var(--mono);
+    font-size:.7rem;
+    letter-spacing:.22em;
+    color:var(--ember);
+    border:1px solid rgba(255,197,49,.45);
+    padding:6px 12px;
+    clip-path:polygon(0 7px,7px 0,100% 0,100% calc(100% - 7px),calc(100% - 7px) 100%,0 100%);
+    margin-bottom:24px;
+  }
+  h1{
+    font-weight:700;
+    font-size:clamp(2.6rem,14vw,3.7rem);
+    line-height:.92;
+    letter-spacing:-.02em;
+    text-transform:uppercase;
+    text-wrap:balance;
+  }
+  h1 em{
+    font-style:normal;
+    color:var(--gem);
+    text-shadow:0 0 26px rgba(65,213,245,.45);
+  }
+  .lede{
+    margin:18px auto 0;
+    max-width:32ch;
+    font-size:1rem;
+    color:var(--muted);
+  }
+
+  /* ---------- gem panel ---------- */
+  .panel{
+    margin-top:30px;
+    background:var(--panel);
+    border:1px solid var(--line);
+    clip-path:var(--cut);
+    padding:30px 20px 24px;
+    text-align:center;
+    position:relative;
+  }
+  .panel::before{
+    content:"";
+    position:absolute;inset:0 0 auto 0;height:3px;
+    background:linear-gradient(90deg,var(--orange),var(--ember),var(--gem));
+  }
+
+  .gem{
+    filter:drop-shadow(0 0 20px rgba(65,213,245,.5));
+    animation:float 3.4s ease-in-out infinite;
+  }
+  @keyframes float{
+    0%,100%{transform:translateY(0)}
+    50%{transform:translateY(-9px)}
+  }
+
+  .qty{
+    font-weight:700;
+    font-size:clamp(3rem,17vw,4.2rem);
+    line-height:1;
+    letter-spacing:-.04em;
+    margin-top:12px;
+    color:var(--gem);
+  }
+  .qty-label{
+    font-family:var(--mono);
+    font-size:.8rem;
+    letter-spacing:.2em;
+    color:var(--muted);
+    margin-top:4px;
+  }
+  .terms{
+    font-size:.86rem;
+    line-height:1.6;
+    color:var(--muted);
+    max-width:34ch;
+    margin:18px auto 0;
+    padding-top:18px;
+    border-top:1px solid var(--line);
+  }
+  .terms b{color:var(--text);font-weight:600}
+
+  .cta{
+    display:flex;align-items:center;justify-content:center;gap:11px;
+    width:100%;
+    margin-top:22px;
+    padding:19px 14px;
+    background:var(--orange);
+    color:#1B1614;
+    font-family:var(--sans);
+    font-weight:700;
+    font-size:1.1rem;
+    letter-spacing:.01em;
+    text-transform:uppercase;
+    text-decoration:none;
+    clip-path:polygon(0 11px,11px 0,100% 0,100% calc(100% - 11px),calc(100% - 11px) 100%,0 100%);
+    transition:background .15s ease, transform .12s ease;
+  }
+  .cta:hover{background:var(--ember)}
+  .cta:active{transform:translateY(3px)}
+  .cta:focus-visible{outline:3px solid var(--gem);outline-offset:3px}
+
+  .handle{
+    font-family:var(--mono);
+    font-size:.75rem;
+    color:var(--muted);
+    margin-top:13px;
+  }
+
+  /* ---------- rows ---------- */
+  h2{
+    font-weight:700;
+    font-size:1.45rem;
+    text-transform:uppercase;
+    letter-spacing:-.01em;
+    margin-bottom:18px;
+  }
+  h2 span{color:var(--orange)}
+
+  .block{margin-top:46px}
+
+  .rows{border-top:1px solid var(--line)}
+  .row{
+    display:flex;gap:14px;align-items:baseline;
+    padding:16px 2px;
+    border-bottom:1px solid var(--line);
+  }
+  .row b{
+    font-weight:600;font-size:.98rem;
+    flex:none;min-width:8.6rem;
+    color:var(--ember);
+  }
+  .row p{font-size:.92rem;color:var(--muted)}
+
+  /* ---------- steps ---------- */
+  ol{list-style:none;counter-reset:s}
+  ol li{
+    counter-increment:s;
+    position:relative;
+    padding:0 0 20px 44px;
+    font-size:.96rem;
+    color:var(--muted);
+  }
+  ol li::before{
+    content:counter(s);
+    position:absolute;left:0;top:-2px;
+    width:28px;height:28px;
+    display:grid;place-items:center;
+    font-family:var(--mono);
+    font-size:.82rem;
+    color:#1B1614;
+    background:var(--orange);
+    clip-path:polygon(0 6px,6px 0,100% 0,100% calc(100% - 6px),calc(100% - 6px) 100%,0 100%);
+  }
+  ol li::after{
+    content:"";
+    position:absolute;left:13.5px;top:31px;bottom:2px;
+    width:1px;background:var(--line);
+  }
+  ol li:last-child::after{display:none}
+
+  /* ---------- share ---------- */
+  .share{margin-top:40px;display:flex;gap:10px}
+  .btn-ghost{
+    flex:1;
+    padding:14px;
+    font-family:var(--sans);
+    font-size:.9rem;
+    font-weight:600;
+    color:var(--text);
+    background:transparent;
+    border:1px solid var(--line);
+    clip-path:polygon(0 9px,9px 0,100% 0,100% calc(100% - 9px),calc(100% - 9px) 100%,0 100%);
+    cursor:pointer;
+    text-decoration:none;
+    text-align:center;
+    transition:background .15s ease;
+  }
+  .btn-ghost:hover{background:var(--panel-hi)}
+  .btn-ghost:focus-visible{outline:3px solid var(--gem);outline-offset:2px}
+
+  footer{
+    margin-top:44px;
+    padding-top:22px;
+    border-top:1px solid var(--line);
+    font-size:.78rem;
+    line-height:1.65;
+    color:var(--muted);
+    opacity:.85;
+  }
+  footer p+p{margin-top:9px}
+
+  @media (prefers-reduced-motion:reduce){
+    *{transition:none!important;animation:none!important}
+  }
+</style>
+</head>
+<body>
+<div class="wrap">
+
+  <header class="hero">
+    <p class="mark">TELEGRAM BOT</p>
+    <h1>Free <em>diamonds</em></h1>
+  </header>
+
+  <main>
+    <section class="panel" aria-label="Diamond giveaway">
+      <svg class="gem" width="66" height="60" viewBox="0 0 40 36" fill="none" aria-hidden="true">
+        <path d="M12 3h16l10 10-18 20L2 13z" fill="#41D5F5" fill-opacity=".22"/>
+        <path d="M12 3h16l10 10-18 20L2 13z" stroke="#41D5F5" stroke-width="1.8" stroke-linejoin="round"/>
+        <path d="M12 3l8 10 8-10M2 13h36M20 13v20" stroke="#41D5F5" stroke-width="1.4" stroke-opacity=".7"/>
+      </svg>
+
+      <p class="qty">500</p>
+      <p class="qty-label">DIAMONDS</p>
+
+      <a class="cta" href="https://t.me/sesoinevra" target="_blank" rel="noopener">
+        <svg width="21" height="21" viewBox="0 0 24 24" fill="currentColor" aria-hidden="true">
+          <path d="M21.94 4.6l-3.03 14.3c-.23 1.01-.83 1.26-1.68.79l-4.64-3.42-2.24 2.15c-.25.25-.46.46-.94.46l.33-4.73 8.6-7.77c.37-.33-.08-.52-.58-.19L7.13 12.9l-4.58-1.43c-1-.31-1.01-1 .21-1.48l17.9-6.9c.83-.3 1.56.2 1.28 1.51z"/>
+        </svg>
+        Telegram par message karo
+      </a>
+      <p class="handle">t.me/sesoinevra</p>
+    </section>
+
+    <div class="share">
+      <button class="btn-ghost" id="copyBtn" type="button">Link copy karo</button>
+      <a class="btn-ghost" href="https://t.me/share/url?url=https%3A%2F%2Ft.me%2Fsesoinevra&text=Free%20diamonds%20aur%20redeem%20codes%20yahan%20milte%20hain" target="_blank" rel="noopener">Dost ko bhejo</a>
+    </div>
+  </main>
+
+  <footer>
+    <p>Diamonds limited hain — sabko nahi milte. Expired code kaam nahi karega.</p>
+    <p>Yeh ek independent fan channel hai, kisi game publisher se official connection nahi hai. Hum OTP ya password kabhi nahi maangte — sirf UID. Koi aur cheez maange to woh fraud hai.</p>
+  </footer>
+
+</div>
+
+<script>
+(function(){
+  var link = "https://t.me/sesoinevra";
+  var btn = document.getElementById('copyBtn');
+  btn.addEventListener('click', function(){
+    var done = function(){
+      btn.textContent = 'Link copy ho gaya';
+      setTimeout(function(){ btn.textContent = 'Link copy karo'; }, 1800);
+    };
+    if (navigator.clipboard) {
+      navigator.clipboard.writeText(link).then(done, function(){ btn.textContent = 'Copy nahi hua'; });
+    } else {
+      var t = document.createElement('textarea');
+      t.value = link; document.body.appendChild(t); t.select();
+      document.execCommand('copy'); document.body.removeChild(t); done();
+    }
+  });
+})();
+</script>
+</body>
+</html>
